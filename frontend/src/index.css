@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  
+  @apply bg-slate-50;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.hero_background{
+
+    opacity: 0.9;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 77vh;
+}
+
+.hero_text{
+  position: absolute;
+  top: 45%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.custom_margin{
+  margin-bottom: 10vh;
+  margin-top: 12vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.logo_gradient{
+  @apply bg-gradient-to-r from-red-500 to-red-600 bg-clip-text text-transparent;
+}
+
+.create_gradient{
+  @apply bg-gradient-to-r from-red-500 to-red-900 bg-clip-text text-transparent;
+}
+
+.red_btn {
+  @apply rounded-full border border-red-600 bg-red-600 py-1.5 px-5 mt-2 text-white transition-all hover:bg-white hover:border-red-800 hover:bg-red-800 text-center text-sm flex items-center justify-center;
+}
+
+.black_btn {
+  @apply rounded-full border border-black bg-black py-1.5 px-5 mt-2 text-white transition-all hover:bg-white hover:text-black text-center text-sm flex items-center justify-center;
+}
+
+.blue_btn {
+  @apply rounded-full border border-blue-600 bg-blue-600 py-1.5 px-5 mt-2 text-white transition-all hover:bg-white hover:bg-blue-700 hover:border-blue-700 text-center text-sm flex items-center justify-center;
+}
+
+.comment_btn {
+  @apply border border-blue-600 ml-10 bg-blue-600 py-2 px-5 mt-2 text-white transition-all hover:bg-white hover:bg-blue-700 hover:border-blue-700 text-center text-sm flex items-center justify-center;
+  width:80vw;
+}
+
+.black_btn_search {
+  @apply rounded-full border border-black bg-black px-5 text-white  transition-all hover:bg-white hover:text-black text-center text-sm;
+}
+
+
+.green_btn {
+  @apply rounded-full border border-lime-600 border-2 font-medium bg-lime-600 py-1.5 px-5 mt-2 text-white transition-all hover:bg-lime-800 hover:border-lime-800 text-center text-sm flex items-center;
+}
+
+.white_btn_auth {
+  @apply rounded-full font-medium bg-transparent py-1.5 px-5 mt-2 text-black transition-all hover:bg-black hover:text-white text-center text-sm flex items-center;
+}
+
+.desc {
+  @apply mt-1 text-lg text-gray-600 sm:text-xl max-w-2xl;
+}
+
+.glassmorphism {
+  @apply rounded-xl border border-gray-200 bg-white/20 shadow-[inset_10px_-50px_94px_0_rgb(199,199,199,0.2)] backdrop-blur p-5;
+}
+
+.create_submit{
+  float:right;
+}
+
+.create_submit2{
+  float:left;
+}
+
+.layout_width{
+  width:78vw;
+}
+
+.fa_styles{
+  font-size: 24px;
+  color:rgb(250, 14, 14);
+}
+
+a{
+  color: rgb(46, 46, 234);
+}
+
+.fa {
+  padding: 16px;
+  font-size: 16px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa_l{
+  background-color: blue;
+  border-radius: 100px;
+  color: white;
+}
+
+.fa_i{
+  background-color: white;
+  border-radius: 100px;
+  color: rgb(241, 103, 126);
+}
+
+.fa_r{
+  background-color: red;
+  color:white;
+  border-radius: 100px;
+}
+
+.comm{
+  width: 80vw;
+}
